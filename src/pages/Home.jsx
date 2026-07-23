@@ -49,7 +49,7 @@ export default function Home() {
         <div className="stat"><span className="stat-num">{vencanice.length}+</span><span>Venčanica</span></div>
         <div className="stat"><span className="stat-num">{slobodnih}</span><span>Slobodnih</span></div>
         <div className="stat"><span className="stat-num">6+</span><span>Dizajnera</span></div>
-        <div className="stat"><span className="stat-num">500+</span><span>Srećnih klijentica</span></div>
+        <div className="stat"><span className="stat-num">500+</span><span>Srećnih klijentkinja</span></div>
       </section>
 
       {/* FEATURED */}

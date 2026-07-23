@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <h3>🌸 Bella Sposa</h3>
+          <h3>Bella Sposa</h3>
           <p>Salon za venčanice — vaš san, naša misija</p>
         </div>
         <div className="footer-links">

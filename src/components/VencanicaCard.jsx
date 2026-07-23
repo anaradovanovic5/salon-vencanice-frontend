@@ -1,11 +1,14 @@
 const SLIKE = [
-  'https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=400&h=560&q=80',
-  'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&h=560&q=80',
-  'https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?auto=format&fit=crop&w=400&h=560&q=80',
-  'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=400&h=560&q=80',
-  'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&h=560&q=80',
-  'https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?auto=format&fit=crop&w=400&h=560&q=80',
+  'https://images.unsplash.com/photo-1599142296733-1c1f2073e6de?auto=format&fit=crop&w=400&h=560&q=80', // venčanica na plaži
+  'https://images.unsplash.com/photo-1549488497-94b52bddac5d?auto=format&fit=crop&w=400&h=560&q=80',     // sweetheart dekolte
+  'https://images.unsplash.com/photo-1622277430358-f4d134452e2e?auto=format&fit=crop&w=400&h=560&q=80',  // pored prozora
+  'https://images.unsplash.com/photo-1521467752200-3bccf80f16ed?auto=format&fit=crop&w=400&h=560&q=80',  // čipkasta venčanica
+  'https://images.unsplash.com/photo-1585241920473-b472eb9ffbae?auto=format&fit=crop&w=400&h=560&q=80',  // cvetni detalji
+  'https://images.unsplash.com/photo-1502955422409-06e43fd3eff3?auto=format&fit=crop&w=400&h=560&q=80',  // u zelenilu
+  'https://images.unsplash.com/photo-1492175742197-ed20dc5a6bed?auto=format&fit=crop&w=400&h=560&q=80',  // sa bukletom
+  'https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=400&h=560&q=80',  // par, venčanica
 ];
+
 
 export default function VencanicaCard({ vencanica, model, index = 0 }) {
   const slika = SLIKE[index % SLIKE.length];
